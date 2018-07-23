@@ -14,7 +14,7 @@ try:
 except:
     print('app目录下不存在{0}.py文件'.format(SCRIPT_SELECT))
 
-try:
-    run.main()
-except:
-    print('app目录下的{0}.py文件必须有main函数'.format(SCRIPT_SELECT))
+
+run.main()
+
+
